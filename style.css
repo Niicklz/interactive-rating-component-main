@@ -1,0 +1,144 @@
+body {
+  font-family: "Overpass", sans-serif;
+}
+/* Contenedor*/
+.container {
+  width: 100%;
+  height: 100vh;
+  background-color: hsl(216, 12%, 8%);
+  display: grid;
+  place-items: center;
+}
+
+/*Tarjetita */
+
+.rating-card,
+.thank-you-card {
+  background-color: hsl(213, 19%, 18%);
+  width: 330px;
+  padding: 17px;
+  line-height: 25px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 24px;
+}
+.inactive {
+  display: none;
+}
+
+/*Estrella del inicio */
+
+.orange-star {
+  width: 40px;
+  height: 40px;
+  background-color: hsl(213, 20%, 22%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  margin-bottom: 24px;
+}
+
+/*Titulo */
+
+h1 {
+  color: hsl(0, 0%, 100%);
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+/*Descripcion */
+
+p {
+  color: hsl(216, 12%, 54%);
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+/*Calificacion */
+
+ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.btn
+ {
+  width: 45px;
+  height: 45px;
+  background-color: hsl(213, 20%, 22%);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  color: hsl(216, 12%, 54%);
+  font-weight: 700;
+  font-size: 14px;
+  border: 0;
+}
+
+.btn:hover {
+  background-color: hsl(217, 12%, 63%);
+  color: hsl(0, 0%, 100%);
+}
+
+.btn:active {
+  background-color: hsl(25, 97%, 53%);
+  color: hsl(0, 0%, 100%);
+}
+
+span {
+  margin-top: 4px;
+}
+
+/*Boton de enviar*/
+
+.submit-rating {
+  width: 260px;
+  height: 45px;
+  border-radius: 40px;
+  border: none;
+  align-self: center;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  background-color: hsl(25, 97%, 53%);
+  color: hsl(0, 0%, 100%);
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+
+.submit-rating:active {
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(25, 97%, 53%);
+}
+
+/*Tarjetita despues de enviar calificacion*/
+
+.thank-you-card {
+  text-align: center;
+  align-items: center;
+}
+
+/*Seleccion*/
+
+.selected-rating {
+  padding: 4px 16px 4px 16px;
+  border-radius: 24px;
+
+  color: hsl(25, 97%, 53%);
+  background-color: hsl(213, 20%, 22%);
+}
+
+/*Gracias!*/
+
+h2 {
+  font-size: 24px;
+  font-weight: 400;
+  color: hsl(0, 0%, 100%);
+  margin-bottom: 12px;
+}
